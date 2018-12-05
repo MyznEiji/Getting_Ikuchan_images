@@ -32,9 +32,9 @@ def get_image(urls, before_image):
 new_images = []
 num = 1
 before_image = new_image_url = linecache.getline('images_url.txt', 1)
+# is_OK変数を使う
 
-
-while num <= 100:
+while True:
     url = "https://prcm.jp/list/%E7%94%9F%E7%94%B0%E7%B5%B5%E6%A2%A8%E8%8A%B1?page=" + str(num)
 
     # イメージ単体ページのurl取得
