@@ -7,4 +7,3 @@ done < ./images_url.txt
 
 mv *.jpeg img/
 mv *.png img/
-mv *.gif img/
